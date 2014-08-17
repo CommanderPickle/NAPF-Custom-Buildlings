@@ -1,27 +1,3 @@
-activateAddons [ 
-  "map_eu",
-  "editorupdate_v102",
-  "glt_bh_wreck"
-];
-
-activateAddons ["map_eu", "editorupdate_v102", "glt_bh_wreck"];
-initAmbientLife;
-
-_this = createCenter west;
-_center_0 = _this;
-
-_group_0 = createGroup _center_0;
-
-_unit_5 = objNull;
-if (true) then
-{
-  _this = _group_0 createUnit ["BAF_Soldier_AA_W", [6231.542, 10607.307, 0], [], 0, "CAN_COLLIDE"];
-  _unit_5 = _this;
-  _this setUnitAbility 0.60000002;
-  if (true) then {_group_0 selectLeader _this;};
-  if (true) then {selectPlayer _this;};
-};
-
 _vehicle_35 = objNull;
 if (true) then
 {
@@ -269,7 +245,3 @@ if (true) then
   _this setDir -6.6604595;
   _this setPos [6024.355, 10905.09, -0.015278459];
 };
-
-processInitCommands;
-runInitScript;
-finishMissionInit;

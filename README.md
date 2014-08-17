@@ -7,6 +7,7 @@ Custom Building List
 ==============
 1. South Airstrip
 2. Muttenz
+3. Abandoned Military Base
 
 Install 
 ==============
